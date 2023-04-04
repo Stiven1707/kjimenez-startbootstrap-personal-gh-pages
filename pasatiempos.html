@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Pagina personal de estudiante de ingenieria de sistemas de unicauca"
+    />
+    <meta
+      name="author"
+      content="Kevin Stiven Jimenez Perafan (kjimenez@univirtual.edu.co)"
+    />
+    <title>JimenezK</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/carousel.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>-->    
+  </head>
+  <body class="d-flex flex-column">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html"
+            ><span class="fw-bolder text-primary">kjimenez</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Estudios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pasatiempos.html">Pasatiempos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Page content-->
+      <section class="py-5">
+        <div class="container px-5">
+          <!-- Pasatiempos-->
+          <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0">
+              <span class="text-gradient d-inline">Pasatiempos</span>
+            </h1>
+          </div>
+          <div class="container" >
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                
+                <!-- Contenedor de los slides -->
+                <div class="carousel-inner ">
+                  <!-- Primer slide -->
+                  <div class="carousel-item active">
+                    <img
+                      src="/archivos/libroslectura900x300.jpg"
+                      alt="Imagen 1"
+                    />
+                    <div class="container">
+                      <!-- Contenido del slide -->
+                      <div class="carousel-caption text-start">
+                        <h1 class="display-5 fw-bolder"><span class="text-gradient d-inline">Leer.</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#leer">Leer mas</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Segundo slide -->
+                  <div class="carousel-item">
+                    <img
+                      src="/archivos/programacion900x300anime.jpg"
+                      alt="Imagen 2"
+                    />
+                    <div class="container">
+                      <!-- Contenido del slide -->
+                      <div class="carousel-caption">
+                        <h1 class="display-5 fw-bolder"><span class="text-gradient d-inline">Programacion.</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#programacion">Leer mas</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Tercer slide -->
+                  <div class="carousel-item">
+                    <img
+                      src="/archivos/volleyball900x300.jpg"
+                      alt="Imagen 3"
+                    />
+                    <div class="container">
+                      <!-- Contenido del slide -->
+                      <div class="carousel-caption text-end">
+                        <h1 class="display-5 fw-bolder"><span class="text-gradient d-inline">Voleibol.</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#voleibol">Leer mas</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Botones para navegar entre slides -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+              
+          </div>
+        </div>
+      </section>
+      <section class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline" id="leer">Leer.</span></h2>
+                        <p class="text-muted">
+                            La lectura es mi pasatiempo favorito, me encanta sumergirme en historias fascinantes y aprender cosas nuevas. Desde novelas de ficción hasta biografías y ensayos, estoy siempre en busca de mi próxima gran lectura. 
+                            Me gusta especialmente leer en mi tiempo libre, ya que me permite relajarme y desconectar del mundo.
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-md-6 offset-md-3">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XT92zJzc-sQ" allowfullscreen></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline" id="programacion">Programacion.</span></h2>
+                        <p class="text-muted">
+                            Me apasiona la programación y la creación de soluciones tecnológicas innovadoras. Paso horas frente a mi ordenador desarrollando código y resolviendo problemas. 
+                            Me gusta experimentar con diferentes lenguajes de programación y herramientas, y siempre estoy buscando formas de mejorar mis habilidades en este campo.
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-md-6 offset-md-3">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZXvfPvti-4M" allowfullscreen></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline" id="voleibol">Voleibol.</span></h2>
+                        <p class="text-muted">
+                            El voleibol es un deporte que me encanta practicar en mi tiempo libre. Me gusta la emoción de estar en el campo, la camaradería con mis compañeros de equipo y la sensación de estar en plena forma física. 
+                            Me gusta competir y desafiarme a mí mismo en cada partido, y siempre busco mejorar mi técnica y estrategia para ser un mejor jugador.
+                        </p>
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-md-6 offset-md-3">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dB5LQuvG758" allowfullscreen></iframe>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0">
+              Copyright &copy; Universidad del Cauca 2023
+            </div>
+          </div>
+          <div class="col-auto" class="small m-0">Popayan - Cauca</div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
